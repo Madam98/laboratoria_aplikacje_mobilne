@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/titleText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Some info"
+            android:textSize="50sp"
+            android:textColor="#7700ff"
+            android:padding="20sp"/>
+
+        <TextView
+            android:id="@+id/noChange0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Współrzędne użytkownika:"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/geoLocationText1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Brak odczytów"
+            android:paddingTop="10sp"/>
+
+        <TextView
+            android:id="@+id/geoLocationText2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Brak odczytów"
+            android:paddingBottom="10sp"/>
+
+        <TextView
+            android:id="@+id/noChange1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pozycja urządzenia:"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/postionText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Brak odczytów"
+            android:padding="10sp"/>
+
+        <TextView
+            android:id="@+id/noChange2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jasność urządzenia:"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/lightText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Brak odczytów"
+            android:padding="10sp"/>
+        <TextView
+            android:id="@+id/noChange3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Temperatura urządzenia:"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/temperatureText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Brak odczytów"
+            android:padding="10sp"/>
+
+        <TextView
+            android:id="@+id/noChange4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ciśnienie:"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/pressureText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Brak odczytów"
+            android:padding="10sp"/>
+
+        <TextView
+            android:id="@+id/noChange5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Wilgotność:"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/humidityText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Brak odczytów"
+            android:padding="10sp"/>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
